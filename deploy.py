@@ -2,11 +2,7 @@ import streamlit as st
 import joblib
 import pandas as pd
 
-import os
-
-file_path = os.path.join('bank-additional.sav')
-model = joblib.load(open(file_path, 'rb'))
-
+model = pickle.load(open('BankMarketingMLApp/bank-additional.sav', 'rb'))
 
 def prediction(features):
     # Mapping for label encoding
