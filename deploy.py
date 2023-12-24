@@ -4,7 +4,7 @@ import pandas as pd
 
 import os
 
-file_path = os.path.join(r'C:\Users\Melisa\Desktop\ADA 442\Project', 'bank-additional.sav')
+file_path = os.path.join('bank-additional.sav')
 model = joblib.load(open(file_path, 'rb'))
 
 
