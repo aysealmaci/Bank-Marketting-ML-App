@@ -2,7 +2,8 @@ import streamlit as st
 import joblib
 import pandas as pd
 
-model = pickle.load(open('BankMarketingMLApp/bank-additional.sav', 'rb'))
+model = joblib.load(open(r'C:\Users\Melisa\Desktop\ADA 442\Project\bank-additional.sav', 'rb'))
+
 
 def prediction(features):
     # Mapping for label encoding
@@ -28,7 +29,19 @@ def prediction(features):
 
 
 def main():
+    # Set the background color using custom CSS
+    background_color = """
+        <style>
+            body {
+                background-color: #fffcce;
+                margin: 0;
+                padding: 0;
+                font-family: 'Arial', sans-serif;
+            }
+        </style>
+    """
 
+    st.markdown(background_color, unsafe_allow_html=True)
 
     # Frontend elements of the web page with ornamentation
     html_temp = """ 
@@ -41,9 +54,9 @@ def main():
             <h1 style="color:black; text-align:center; font-size: 2.5rem; letter-spacing: 2px;">Bank Marketing Machine Learning App</h1> 
         </div> 
     """
-
+    full = background_color + html_temp
     # Display the frontend aspect
-    st.markdown(html_temp, unsafe_allow_html=True)
+    st.markdown(full, unsafe_allow_html=True)
 
     # Add some instructions or description
     st.write("""
