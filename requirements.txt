@@ -4,3 +4,4 @@ numpy
 seaborn
 scikit-learn
 streamlit
+libgl1
