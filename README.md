@@ -4,7 +4,8 @@ whether a client of a bank will subscribe to a term deposit or not.
 
 Dataset can be reached from: https://archive.ics.uci.edu/dataset/222/bank+marketing
 
-Steps:
+<b>Steps:</b>
+
 1. Data cleaning
 2. Data preprocessing
 3. Feature selection
@@ -13,7 +14,8 @@ Steps:
 6. Evaluation
 7. Deployment
 
-Models we used:
+<b>Models we used:</b>
+
 - Logistic Regression
 - Random Forest
 - Neural Network
