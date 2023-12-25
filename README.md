@@ -2,8 +2,7 @@ The objective of this project is to build a machine learning model to predict
 whether a client of a bank will subscribe to a term deposit or not.
 
 
-Dataset can be reached from: <a href="https://archive.ics.uci.edu/dataset/222/bank+marketing
-"></a>
+Dataset can be reached from: https://archive.ics.uci.edu/dataset/222/bank+marketing
 
 Steps:
 1. Data cleaning
@@ -21,7 +20,8 @@ Models we used:
 
 The Streamlit cloud address of the deployed model is: https://bankmarketingmlapp-jdqxda7zpddexfnt8xazkf.streamlit.app/
 
-<b>Procedure</b>
+Procedure
+
 First of all, missing values in both categorical and numerical columns were addressed using appropriate techniques. Numerical values were imputed with the mode, while categorical values were imputed with One-Hot Encoding and Label Encoding methods. 
 
 In the Data preprocessing section, One-Hot Encoding, categorical columns were one-hot encoded to represent them as binary values (0 or 1). This step was crucial for transforming categorical variables into a format suitable for analysis with the machine learning models. Label Encoding, categorical columns were label encoded to represent them as numerical values (such as 0, 1 or 2) while preserving their categorical nature. Mode imputation, the mode was used for imputing missing values in numerical columns, maintaining the integrity of numerical data. 
