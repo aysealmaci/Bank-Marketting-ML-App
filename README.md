@@ -20,6 +20,7 @@ Models we used:
 
 The Streamlit cloud address of the deployed model is: https://bankmarketingmlapp-jdqxda7zpddexfnt8xazkf.streamlit.app/
 
+
 Procedure
 
 First of all, missing values in both categorical and numerical columns were addressed using appropriate techniques. Numerical values were imputed with the mode, while categorical values were imputed with One-Hot Encoding and Label Encoding methods. 
