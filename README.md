@@ -1,11 +1,11 @@
-## Bank Marketting Machine Learning App
+# Bank Marketting Machine Learning App
 The objective of this project is to build a machine learning model to predict
 whether a client of a bank will subscribe to a term deposit or not.
 
 
 Dataset can be reached from: https://archive.ics.uci.edu/dataset/222/bank+marketing
 
-# Steps:
+## Steps:
 
 1. Data cleaning
 2. Data preprocessing
@@ -15,7 +15,7 @@ Dataset can be reached from: https://archive.ics.uci.edu/dataset/222/bank+market
 6. Evaluation
 7. Deployment
 
-# Models we used
+## Models we used
 
 - Logistic Regression
 - Random Forest
@@ -23,7 +23,7 @@ Dataset can be reached from: https://archive.ics.uci.edu/dataset/222/bank+market
 
 The Streamlit cloud address of the deployed model is: https://bankmarketingmlapp-jdqxda7zpddexfnt8xazkf.streamlit.app/
 
-# Procedure
+## Procedure
 
 First of all, missing values in both categorical and numerical columns were addressed using appropriate techniques. Numerical values were imputed with the mode, while categorical values were imputed with One-Hot Encoding and Label Encoding methods. 
 
