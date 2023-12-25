@@ -10,4 +10,7 @@ Steps:
 6. Evaluation
 7. Deployment
 
-
+Models we used:
+- Logistic Regression
+- Random Forest
+- Neural Network
