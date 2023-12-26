@@ -5,7 +5,7 @@ whether a client of a bank will subscribe to a term deposit or not.
 
 Dataset can be reached from: https://archive.ics.uci.edu/dataset/222/bank+marketing
 
-## Steps:
+## Steps
 
 1. Data cleaning
 2. Data preprocessing
